@@ -1,0 +1,20 @@
+{
+    "name": "@ts-libs/plugins",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "",
+    "sideEffects": false,
+    "type": "module",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "jest",
+        "cover": "jest --coverage"
+    },
+    "devDependencies": {
+        "@types/node": "^20.2.5",
+        "jest": "^29.5.0",
+        "rimraf": "^5.0.1",
+        "ts-jest": "^29.1.0",
+        "typescript": "^5.1.3"
+    }
+}

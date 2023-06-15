@@ -1,0 +1,27 @@
+{
+    "name": "esp32m",
+    "version": "2023.06.15",
+    "build": {
+		"srcFilter": [
+            "+<*.cpp>",
+            "+<**/*.cpp>"
+		],
+		"flags": [
+            "-I include/esp32m",
+            "-I include/esp32m/bt",
+            "-I include/esp32m/bus",
+            "-I include/esp32m/config",
+            "-I include/esp32m/debug",
+            "-I include/esp32m/dev",
+            "-I include/esp32m/events",
+            "-I include/esp32m/fs",
+            "-I include/esp32m/ha",
+            "-I include/esp32m/io",
+            "-I include/esp32m/log",
+            "-I include/esp32m/net",
+            "-I include/esp32m/ui"
+		],
+            "extraScript": "scripts/build-ui.py",
+            "web_ui_build_dir": "$PROJECT_BUILD_DIR/web_ui"
+	}
+}
